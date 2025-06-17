@@ -1,7 +1,7 @@
 
-var fibonacciResult;
-var inicio;
-var fin;
+var fibonacciResult=0;
+var inicio=5;
+var fin=20;
 
 var fibonacci = (ini1, ini2, limit) => {
     var a = ini1;
@@ -24,7 +24,8 @@ var fibonacci = (ini1, ini2, limit) => {
     console.log(suma);
 };
 
-fibonacci(5, 6, 300);
+
+console.log(fibonacci(5, 6, 300));
 
 
 
@@ -55,10 +56,10 @@ var fibonacci = (ini1, ini2, limit) => {
         b = siguiente;
     }
     fibonacciMap = fibMap;
-    console.log(Array.from(fibMap.values()));
+    return fibMap;
 };
 
-fibonacci(5, 6, 300);
+console.log(fibonacci(5, 6, 300));
 
 //set
 var fibonacciSet;
@@ -89,7 +90,8 @@ var fibonacci = (ini1, ini2, limit) => {
     console.log(fib);
 };
 
-fibonacci(5, 6, 300);
+console.log(fibonacci(5, 6, 300));
+
 
 
 //array
@@ -118,4 +120,4 @@ var fibonacci = (ini1, ini2, limit) => {
     console.log(fib);
 };
 
-fibonacci(5, 6, 30);
+console.log(fibonacci(5, 6, 300));
